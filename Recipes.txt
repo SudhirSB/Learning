@@ -8,8 +8,11 @@
 |     Paasta
 |     Omlete
 |
-|
+|     Beans
+|     Pizza
 |
 |
 |     Thanks you :-)
+|     Done my changes
 |     Final copy
+
