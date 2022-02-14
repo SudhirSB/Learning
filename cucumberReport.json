@@ -1,0 +1,187 @@
+[
+  {
+    "description": "",
+    "elements": [
+      {
+        "description": "",
+        "id": "nam-login;login-to-nam-with-valid-creds",
+        "keyword": "Scenario",
+        "line": 13,
+        "name": "Login to NAM with valid creds",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 2000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 15,
+            "name": "I will navigate to \"NAM\" website",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:21"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2697000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 16,
+            "name": "I enter \"ngp-admin\", \"Subex@123\" and click on login button",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:28"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2531000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 17,
+            "name": "I should be navigated to \"Common Services\" homepage",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 65000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 18000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      },
+      {
+        "description": "",
+        "id": "nam-login;navigate-to-asset-inventory-screen-and-validate-violation-details-of-an-asset",
+        "keyword": "Scenario",
+        "line": 20,
+        "name": "Navigate to Asset Inventory screen and validate violation details of an asset",
+        "steps": [
+          {
+            "keyword": "Before",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 22,
+            "name": "I click on the \"Asset Management\" link",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:36"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 799000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 23,
+            "name": "I should be navigated to \"Asset Management\" homepage",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:45"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4751000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 24,
+            "name": "I expand 1 row asset details",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:89"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2715000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "And ",
+            "line": 25,
+            "name": "I navigate to \"Violations\" tab",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:95"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 4224000000
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 26,
+            "name": "I should be able to see valid violation details of the asset",
+            "match": {
+              "location": "..\\StepDefinitions\\AssetInventory_steps.ts:103"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2684000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 1000000
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "result": {
+              "status": "passed",
+              "duration": 13000000
+            }
+          }
+        ],
+        "tags": [],
+        "type": "scenario"
+      }
+    ],
+    "id": "nam-login",
+    "line": 1,
+    "keyword": "Feature",
+    "name": "NAM Login",
+    "tags": [],
+    "uri": "..\\features\\NAM.feature"
+  }
+]
